@@ -2590,7 +2590,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000241">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000218"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000303"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010111"/>
         <rdfs:label xml:lang="en">UniProt ID mapping record - UniProt entry name field value</rdfs:label>
     </owl:Class>
     
@@ -3179,9 +3179,817 @@ RGD identifier.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000188"/>
         <rdfs:label xml:lang="en">UniProt entry name</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000000"/>
+        <rdfs:label xml:lang="en">Reactome record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010007 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010007">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome protein record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010008 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010008">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome small molecule record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010009 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010009">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome physical entity record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010010 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010010">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome complex record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010011 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010011">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - Reactome identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010014 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010014">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - entity reference field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010015 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010015">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - database field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010016 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010016">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - database id field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010017 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010017">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - cellular location field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010018 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010018">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - UniProt accession field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010019 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010019">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000300"/>
+        <rdfs:label xml:lang="en">Reactome record - ENSEMBL identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010020 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010020">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - external reference field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010021 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010021">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - name field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010023 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010023">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - display name field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010024 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010024">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - feature field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010026 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010026">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - member entity reference field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010028 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010028">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - author field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010029 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010029">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - year field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010030 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010030">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - source field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010031 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010031">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - feature location field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010032 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010032">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - PubMed identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010033 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010033">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - sequence interval start field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010034 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010034">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - sequence interval end field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010036 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010036">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - title field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010038 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010038">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - position status field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010039 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010039">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - sequence position field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010040 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010040">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - physical entity field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010043 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010043">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - stoichiometric coefficient field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010044 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010044">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - pathway component field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010046 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010046">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - pathway order field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010048 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010048">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - organism field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010050 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010050">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - component field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010052 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010052">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - component stoichiometry field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010054 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010054">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - conversion direction field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010058 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010058">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - modification type field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010059 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010059">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - step process field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010060 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010060">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - left field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010061 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010061">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - right field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010064 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010064">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome protein reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010065 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010065">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome small molecule reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010066 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010066">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome pathway record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010067 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010067">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome biochemical reaction record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010068 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010068">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome physical entity reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010070 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010070">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome DNA record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010071 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010071">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome DNA region record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010072 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010072">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome RNA record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010073 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010073">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome RNA region record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010074 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010074">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome DNA reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010075 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010075">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome RNA reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010076 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010076">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome DNA region reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010077 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010077">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome RNA region reference record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010078 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010078">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome control record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010080 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010080">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome stoichiometry record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010081 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010081">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - controller field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010083 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010083">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - controlled field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010085 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010085">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - control type field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010087 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010087">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome modulation record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010088 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010088">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome relationship xref record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010089 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010089">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome publication xref record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010090 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010090">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome unification xref record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010091 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010091">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome pathway step record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010092 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010092">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome catalysis record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010095 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010095">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome sequence site record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010096 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010096">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome sequence interval record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010097 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010097">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome provenance record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010098 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010098">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome biosource record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010099 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010099">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome relationship type vocabulary record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010100 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010100">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome template reaction record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010101 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010101">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome template reaction regulation record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010102 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010102">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome provenance record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010103 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010103">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome sequence modification vocabulary record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010104 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010104">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome cellular location vocabulary record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010105 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010105">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome degradation record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010106 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010106">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome modification feature record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010107 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010107">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010006"/>
+        <rdfs:label xml:lang="en">Reactome fragment feature record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010108 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010108">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:label xml:lang="en">Reactome record - xref field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010110 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010110">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">Gene Ontology field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010111 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010111">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">UniProt identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010114 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010114">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010129"/>
+        <rdfs:label xml:lang="en">Reactome record - PSI-MOD identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010121 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010121">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000298"/>
+        <rdfs:label xml:lang="en">Reactome record - EMBL identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010122 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010122">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010127"/>
+        <rdfs:label xml:lang="en">Reactome record - miRBase identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010123 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010123">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010110"/>
+        <rdfs:label xml:lang="en">Reactome record - Gene Ontology identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010124 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010124">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010126"/>
+        <rdfs:label xml:lang="en">Reactome record - NCBI nucleotide identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010125 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010125">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000232"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010128"/>
+        <rdfs:label xml:lang="en">Reactome record - UniProt Isoform field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010126 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010126">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">NCBI nucleotide identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010127 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010127">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">miRBase identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010128 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010128">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">Uniprot Isoform identifier field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010129 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/ccp-extensions.owl/IAO_EXT_EKW_0010129">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:label xml:lang="en">PSI-MOD identifier field value</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
