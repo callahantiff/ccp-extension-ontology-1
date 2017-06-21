@@ -12508,2205 +12508,2205 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1263 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001263 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1263">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001263">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Afcs identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1264 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001264 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1264">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001264">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Agricola identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1265 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001265 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1265">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001265">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">AhfsCode identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1266 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001266 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1266">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001266">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Alfred identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1267 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001267 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1267">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001267">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Allergome identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1268 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001268 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1268">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001268">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">AnimalQtlDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1269 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001269 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1269">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001269">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">AphidBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1270 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001270 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1270">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001270">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ApiDbCryptoDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1271 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001271 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1271">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001271">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ArachnoServer identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1272 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001272 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1272">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001272">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ArrayExpress identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1273 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001273 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1273">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001273">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Asrp identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1274 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001274 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1274">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001274">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">AtcCode identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1275 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001275 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1275">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001275">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BeeBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1276 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001276 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1276">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001276">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BeetleBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1277 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001277 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1277">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001277">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Bgee identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1278 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001278 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1278">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001278">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BindingDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1279 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001279 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1279">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001279">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BindInteraction identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1280 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001280 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1280">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001280">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BindTranslation identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1281 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001281 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1281">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001281">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BioCyc identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1282 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1282">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">BioGrid identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1283 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001283 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1283">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001283">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">CamjeDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1284 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001284 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1284">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001284">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">CAZy identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1285 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001285 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1285">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001285">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Ccds identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1286 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001286 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1286">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001286">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">CGD identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1287 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001287 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1287">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001287">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Chembl identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1288 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001288 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1288">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001288">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ChemicalAbstractsService identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1289 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001289 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1289">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001289">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ChemSpider identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1290 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001290 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1290">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001290">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ChiTaRS identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1291 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001291 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1291">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001291">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">CleanEx identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1292 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001292 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1292">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001292">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ClinicalTrialsGov identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1293 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001293 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1293">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001293">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">COMPLUYEAST_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1294 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001294 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1294">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001294">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ConoServer identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1295 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001295 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1295">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001295">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Corum identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1296 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001296 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1296">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001296">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Cosmic identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1297 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001297 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1297">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001297">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Ctd identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1298 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001298 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1298">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001298">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Cygd identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1299 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001299 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1299">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001299">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DailyMed identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1300 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001300 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1300">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001300">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Dbj identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1301 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001301 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1301">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001301">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DbSnp identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1302 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001302 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1302">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001302">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Ddbj identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1303 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001303 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1303">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001303">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DipInteraction identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1304 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001304 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1304">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001304">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DipInteractor identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1305 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001305 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1305">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001305">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DisProt identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1306 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001306 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1306">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001306">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Dmdm identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1307 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001307 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1307">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001307">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Dnasu identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1308 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001308 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1308">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001308">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DOSAC_COBS_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1309 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001309 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1309">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001309">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DrugBank identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1310 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001310 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1310">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001310">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DrugCodeDirectory identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1311 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001311 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1311">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001311">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DrugProductsDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1312 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001312 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1312">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001312">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">DrugsProductDatabase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1313 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001313 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1313">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001313">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EchoBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1314 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001314 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1314">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001314">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EcoCyc identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1315 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001315 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1315">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001315">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EggNOG identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1316 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001316 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1316">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001316">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Emb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1317 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001317 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1317">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001317">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnsemblBacteria identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1318 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001318 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1318">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001318">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnsemblFungi identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1319 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001319 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1319">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001319">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnsemblMetazoa identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1320 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001320 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1320">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001320">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnsemblPlants identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1321 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001321 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1321">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001321">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnsemblProtists identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1322 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001322 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1322">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001322">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EnzymeCommission identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1323 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001323 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1323">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001323">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ENZYME identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1324 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001324 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1324">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001324">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EuHCVdb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1325 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001325 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1325">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001325">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EuPathDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1326 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001326 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1326">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001326">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">EvolutionaryTrace identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1327 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001327 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1327">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001327">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">FissionYeastPhenotype identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1328 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001328 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1328">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001328">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Gad identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1329 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001329 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1329">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001329">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Gdb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1330 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001330 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1330">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001330">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GenAtlas identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1331 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001331 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1331">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001331">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GenBank identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1332 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001332 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1332">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001332">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Gene3d identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1333 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001333 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1333">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001333">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GeneCard identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1334 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001334 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1334">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001334">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GeneFarm identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1335 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001335 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1335">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001335">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GeneTree identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1336 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001336 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1336">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001336">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Genevestigator identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1337 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001337 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1337">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001337">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GenoList identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1338 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001338 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1338">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001338">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GenomeReviews identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1339 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001339 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1339">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001339">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GenomeRNAi identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1340 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001340 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1340">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001340">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Geo identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1341 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001341 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1341">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001341">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GermOnline identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1342 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001342 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1342">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001342">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GlycoSuiteDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1343 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001343 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1343">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001343">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GPCRDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1344 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001344 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1344">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001344">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Gramene identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1345 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001345 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1345">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001345">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">GuideToPharmacology identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1346 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001346 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1346">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001346">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">H_InvDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1347 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001347 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1347">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001347">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HamapAnnotationRule identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1348 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001348 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1348">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001348">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HAMAP identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1349 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001349 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1349">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001349">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HamapRule identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1350 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001350 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1350">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001350">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Hcdm identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1351 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001351 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1351">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001351">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Hinv identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1352 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001352 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1352">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001352">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HOGENOM identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1353 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001353 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1353">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001353">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HomeoDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1354 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001354 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1354">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001354">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HomologeneGroup identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1355 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001355 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1355">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001355">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Horde identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1356 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001356 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1356">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001356">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HOVERGEN identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1357 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001357 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1357">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001357">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HPA identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1358 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001358 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1358">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001358">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Hprd identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1359 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001359 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1359">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001359">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HSSP identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1360 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001360 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1360">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001360">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Huge identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1361 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001361 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1361">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001361">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">HumanCycGene identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1362 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001362 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1362">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001362">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Imex identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1363 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001363 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1363">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001363">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Imgt identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1364 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001364 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1364">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001364">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IncRnaDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1365 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001365 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1365">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001365">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">InnateDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1366 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001366 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1366">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001366">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">InParanoid identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1367 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001367 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1367">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001367">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">InsdcProject identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1368 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001368 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1368">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001368">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IntAct identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1369 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001369 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1369">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001369">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">InterFilDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1370 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001370 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1370">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001370">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">InterPro identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1371 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001371 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1371">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001371">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Ipi identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1372 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001372 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1372">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001372">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebCrig identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1373 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001373 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1373">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001373">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebCrog identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1374 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001374 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1374">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001374">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebIcrig identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1375 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001375 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1375">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001375">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebIcrog identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1376 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001376 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1376">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001376">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebIrig identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1377 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001377 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1377">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001377">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebIrog identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1378 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001378 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1378">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001378">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebRig identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1379 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001379 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1379">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001379">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IRefWebRog identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1380 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001380 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1380">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001380">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Isrctn identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1381 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001381 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1381">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001381">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IupharLigand identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1382 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001382 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1382">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001382">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">IupharReceptor identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1383 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001383 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1383">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001383">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">KeggCompound identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1384 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001384 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1384">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001384">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">KeggDrug identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1385 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001385 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1385">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001385">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">KeggGene identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1386 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001386 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1386">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001386">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">KeggPathway identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1387 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001387 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1387">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001387">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">LegioList identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1388 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001388 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1388">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001388">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Leproma identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1389 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001389 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1389">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001389">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MaizeGdb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1390 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001390 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1390">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001390">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MamitTrnaDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1391 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001391 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1391">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001391">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MatrixDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1392 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001392 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1392">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001392">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MedGen identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1393 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001393 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1393">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001393">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Merops identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1394 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001394 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1394">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001394">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Mesh identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1395 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001395 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1395">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001395">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Micado identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1396 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001396 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1396">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001396">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Mint identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1397 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001397 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1397">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001397">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MiRBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1398 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001398 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1398">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001398">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Mirte identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1399 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001399 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1399">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001399">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ModBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1400 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001400 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1400">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001400">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Mpact identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1401 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001401 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1401">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001401">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MpiDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1402 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001402 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1402">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001402">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MutDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1403 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001403 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1403">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001403">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">MycoCLAP identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1404 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001404 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1404">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001404">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">NasoniaBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1405 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001405 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1405">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001405">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">NationalDrugCodeDirectory identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1406 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001406 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1406">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001406">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">NcbiTrace identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1407 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001407 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1407">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001407">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">NextBio identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1408 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001408 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1408">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001408">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">NeXtProt identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1409 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001409 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1409">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001409">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">OGP identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1410 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001410 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1410">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001410">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">OMA identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1411 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001411 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1411">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001411">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Omim identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1412 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001412 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1412">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001412">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Ophid identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1413 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001413 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1413">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001413">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Orphanet identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1414 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001414 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1414">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001414">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">OrthoDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1415 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001415 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1415">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001415">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Panther identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1416 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001416 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1416">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001416">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pathema identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1417 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001417 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1417">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001417">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pathway_Interaction_DB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1418 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001418 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1418">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001418">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PATRIC identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1419 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001419 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1419">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001419">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PaxDb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1420 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001420 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1420">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001420">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pbr identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1421 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001421 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1421">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001421">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PDB_J identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1422 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001422 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1422">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001422">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PDB_sum identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1423 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001423 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1423">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001423">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PdbEurope identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1424 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001424 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1424">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001424">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PdbLigand identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1425 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001425 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1425">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001425">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PeptideAtlas identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1426 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001426 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1426">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001426">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PeroxiBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1427 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001427 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1427">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001427">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pfam identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1428 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001428 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1428">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001428">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PharmGkbHaplotype identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1429 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001429 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1429">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001429">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PharmGkb identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1430 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001430 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1430">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001430">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PharmGkbVariantLocation identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1431 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001431 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1431">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001431">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PhosphoSite identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1432 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001432 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1432">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001432">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PhosSite identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1433 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001433 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1433">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001433">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PhylomeDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1434 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001434 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1434">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001434">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pictar identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1435 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001435 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1435">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001435">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PiRnaBank identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1436 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001436 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1436">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001436">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pirnr identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1437 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001437 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1437">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001437">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PirSf identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1438 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001438 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1438">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001438">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pirsr identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1439 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001439 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1439">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001439">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PMAP_CutDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1440 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1440">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PomBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1441 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001441 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1441">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001441">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PptaseDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1442 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001442 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1442">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001442">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PreMod identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1443 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001443 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1443">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001443">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Prf identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1444 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001444 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1444">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001444">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PRIDE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1445 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001445 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1445">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001445">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Prints identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1446 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001446 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1446">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001446">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ProDom identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1447 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001447 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1447">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001447">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ProMEX identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1448 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001448 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1448">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001448">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Prosite identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1449 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001449 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1449">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001449">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ProtClustDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1450 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001450 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1450">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001450">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ProteinModelPortal identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1451 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001451 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1451">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001451">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ProtoNet identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1452 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001452 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1452">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001452">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PseudoCap identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1453 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001453 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1453">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001453">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PseudogeneOrg identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1454 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001454 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1454">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001454">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PsiMod identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1455 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001455 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1455">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001455">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PubChemBioAssay identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1456 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001456 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1456">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001456">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PubChemCompound identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1457 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001457 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1457">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001457">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">PubChemSubstance identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1458 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001458 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1458">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001458">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Pw identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1459 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001459 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1459">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001459">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">RatMap identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1460 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001460 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1460">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001460">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Rdo identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1461 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1461">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ReactomeReaction identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1462 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001462 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1462">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001462">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">REBASE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1463 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001463 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1463">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001463">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">RefSnp identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1464 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001464 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1464">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001464">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">REPRODUCTION_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1465 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001465 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1465">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001465">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Rfam identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1466 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001466 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1466">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001466">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Rouge identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1467 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001467 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1467">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001467">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">RuleBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1468 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001468 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1468">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001468">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Saas identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1469 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001469 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1469">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001469">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SABIO_RK identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1470 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001470 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1470">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001470">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SBKB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1471 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001471 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1471">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001471">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Slc identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1472 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001472 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1472">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001472">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Smart identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1473 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001473 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1473">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001473">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SMR identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1474 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001474 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1474">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001474">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SnoMedCt identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1475 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001475 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1475">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001475">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SnoRnaBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1476 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001476 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1476">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001476">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SnpRs identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1477 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001477 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1477">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001477">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SOURCE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1478 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001478 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1478">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001478">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">STRING identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1479 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001479 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1479">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001479">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SuperFam identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1480 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001480 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1480">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001480">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SUPFAM identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1481 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001481 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1481">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001481">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">SWISS_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1482 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001482 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1482">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001482">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TCDB identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1483 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001483 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1483">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001483">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TherapeuticTargetsDatabase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1484 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001484 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1484">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001484">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TigrFams identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1485 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001485 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1485">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001485">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TransfacFactor identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1486 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001486 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1486">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001486">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TransfacGene identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1487 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001487 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1487">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001487">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TransfacMatrix identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1488 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001488 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1488">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001488">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">TubercuList identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1489 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001489 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1489">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001489">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UCD_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1490 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001490 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1490">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001490">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UcscGenomeBrowser identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1491 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001491 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1491">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001491">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Umls identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1492 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001492 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1492">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001492">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UncharacterizedPfam identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1493 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001493 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1493">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001493">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UniPathway identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1494 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001494 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1494">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001494">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UniProtEntryName identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1495 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001495 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1495">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001495">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UniProtIsoform identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1496 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001496 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1496">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001496">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">UnNormalizedMolecularInteractionOntologyTerm identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1497 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001497 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1497">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001497">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Vbrc identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1498 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001498 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1498">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001498">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">VectorBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1499 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001499 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1499">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001499">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">Vega identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1500 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001500 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1500">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001500">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">World_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1501 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001501 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1501">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001501">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">XenBase identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1502 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001502 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1502">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001502">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ZnfGeneCatalog identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1503 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001503 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1503">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001503">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">CrossReferenceUrl identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1504 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001504 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1504">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001504">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">DipInteractionExperiment identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1505 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001505 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1505">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001505">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">ISBN identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1506 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001506 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1506">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001506">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">Medline identifier</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1508 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001508 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1508">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001508">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
         <rdfs:label xml:lang="en">Wikipedia identifier</rdfs:label>
 </owl:Class>
