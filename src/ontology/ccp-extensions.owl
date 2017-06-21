@@ -11778,6 +11778,24 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001510 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001510">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
+        <rdfs:label xml:lang="en">GOA reference identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001511 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001511">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
+        <rdfs:label xml:lang="en">GO reference identifier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1263 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_1263">
