@@ -278,7 +278,7 @@
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000009 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000009">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database name field refers to the database from which the identifier in the database object identifier field is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the database object identifiers, then the database name should be UniProtKB.
 The value of the database name field must be one of the values from the set of GO database cross-references [http://amigo.geneontology.org/xrefs].</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
@@ -290,7 +290,7 @@ The value of the database name field must be one of the values from the set of G
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000010 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000010">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database object identifier field must reference a unique identifier from the database in database name field for the item being annotated. In GAF 2.0 format, the identifier must reference a top-level primary gene or gene product identifier: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are not legal values in this field.
 The database object identifier is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in DB object ID field) or annotations to a protein object (protein ID in DB object ID field).</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
@@ -302,7 +302,7 @@ The database object identifier is the identifier for the database object, which 
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000011 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000011">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database object symbol field must reference a (unique and valid) symbol to which DB object ID is matched. The symbol can be the ORF name for an otherwise unnamed gene or protein.
 If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol. The DB Object Symbol field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (the DB object ID field provides the unique identifier), although IDs can be used as a DB object symbol if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
@@ -324,7 +324,7 @@ If gene products are annotated, can use gene product symbol if available, or man
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000013 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000013">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The qualifier field references flags that modify the interpretation of an annotation using 
 one (or more) of NOT, contributes_to, colocalizes_with
 See also the documentation on qualifiers in the GO annotation guide [http://geneontology.org/GO.annotation.conventions.shtml#qual].</obo:IAO_0000115>
@@ -338,7 +338,7 @@ See also the documentation on qualifiers in the GO annotation guide [http://gene
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000014">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000034"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The ontology identifier field references the ontology identifier for the term attributed to the DB object ID.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - ontology term identifier field value</rdfs:label>
@@ -349,7 +349,7 @@ See also the documentation on qualifiers in the GO annotation guide [http://gene
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000015 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000015">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database reference field references one or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID in this GAF record. This may be a literature reference or a database record. The syntax is DB:accession_number.
 Note that only one reference can be cited on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should always be included, even if a PubMed ID is also used.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
@@ -361,7 +361,7 @@ Note that only one reference can be cited on a single line in the gene associati
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000016 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000016">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The evidence code field references an evidence code detailing the evidence used to assert the ontology concept to gene identifier association. See the GO evidence code guide for the list of valid evidence codes for GO annotations [http://geneontology.org/page/guide-go-evidence-codes].</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - evidence code field value</rdfs:label>
@@ -372,7 +372,7 @@ Note that only one reference can be cited on a single line in the gene associati
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000017 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000017">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The annotation with (or) from field is also referred to as with, from or the with/from column
 and references one of:
 DB:gene_symbol
@@ -398,7 +398,7 @@ The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.</o
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000018 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000018">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The annotation aspect field refers to the namespace or ontology to which the GO ID (ontology identifier) belongs; one of P (biological process), F (molecular function) or C (cellular component).</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - aspect field value</rdfs:label>
@@ -427,7 +427,7 @@ The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.</o
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000021 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000021">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">Gene symbol [or other text] Note that we strongly recommend that gene synonyms are included in the gene association file, as this aids the searching of GO.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - database object synonym field value</rdfs:label>
@@ -438,7 +438,7 @@ The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.</o
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000022 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000022">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database object name field references the name of gene or gene product.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - database object name field value</rdfs:label>
@@ -449,7 +449,7 @@ The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.</o
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000023 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000023">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">A description of the type of gene product being annotated. If a gene product form ID (column 17) is supplied, the DB object type will refer to that entity; if no gene product form ID is present, it will refer to the entity that the DB object symbol (column 2) is believed to produce and which actively carries out the function or localization described. one of the following: protein_complex; protein; transcript; ncRNA; rRNA; tRNA; snRNA; snoRNA; any subtype of ncRNA in the Sequence Ontology. If the precise product type is unknown, gene_product should be used. this field is mandatory, cardinality 1
 The object type (gene_product, transcript, protein, protein_complex, etc.) listed in the DB object type field must match the database entry identified by the gene product form ID, or, if this is absent, the expected product of the DB object ID. Note that DB object type refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. For example, if your database entry represents a protein-encoding gene, then protein goes in the DB object type column. The text entered in the DB object name and DB object symbol should refer to the entity in DB object ID. For example, several alternative transcripts from one gene may be annotated separately, each with the same gene ID in DB object ID, and specific gene product identifiers in gene product form ID, but list the same gene symbol in the DB object symbol column.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
@@ -461,7 +461,7 @@ The object type (gene_product, transcript, protein, protein_complex, etc.) liste
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000024 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000024">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. this field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000) See the GO annotation conventions for more information on multi-organism terms.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - database object taxon identifier taxon field value</rdfs:label>
@@ -472,7 +472,7 @@ The object type (gene_product, transcript, protein, protein_complex, etc.) liste
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000025 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000025">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">Date on which the annotation was made</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://www.geneontology.org/page/go-annotation-file-format-20</obo:IAO_0000119>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - date field value</rdfs:label>
@@ -483,7 +483,7 @@ The object type (gene_product, transcript, protein, protein_complex, etc.) liste
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000026 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000026">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">The database which made the annotation
 one of the values from the set of GO database cross-references
 Used for tracking the source of an individual annotation. Default value is value entered as the DB (column 1).
@@ -497,7 +497,7 @@ Value will differ from column 1 for any annotation that is made by one database 
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000027 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000027">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">one of:
 DB:gene_id
 DB:sequence_id
@@ -517,7 +517,7 @@ this field is optional, cardinality 0 or greater</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000028 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000028">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115 xml:lang="en">As the DB Object ID (column 2) entry must be a canonical entity—a gene OR an abstract protein that has a 1:1 correspondence to a gene—this field allows the annotation of specific variants of that gene or gene product. Contents will frequently include protein sequence identifiers: for example, identifiers that specify distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. Identifiers for functional RNAs can also be included in this column.
 The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:OK0206-2
 When the gene product form ID (column 17) is filled with a protein identifier, the value in DB object type (column 12) must be protein. Protein identifiers can include UniProtKB accession numbers, NCBI NP identifiers or Protein Ontology (PRO) identifiers.
@@ -14808,19 +14808,19 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002">
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000019"/>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record field value</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000003 -->
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001602 -->
 
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000003">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_0000002"/>
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001602">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001601"/>
         <obo:IAO_0000115>taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. this field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000) See the GO annotation conventions for more information on multi-organism terms.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">GOA GAF v2.0 Annotation record - interacting taxon identifier taxon field value</rdfs:label>
     </owl:Class>
