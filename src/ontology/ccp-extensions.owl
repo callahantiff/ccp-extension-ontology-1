@@ -1214,15 +1214,6 @@ ASN1:  geneid</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000115 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000115">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000114"/>
-        <rdfs:label xml:lang="en">protein ontology identifier mapping record</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000116 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000116">
@@ -3980,7 +3971,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000404">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000359"/>
         <obo:IAO_0000115>possibly any one of: KEGG Drug ID, KEGG Compound ID, PubChem Compound ID, PubChem Substance ID, ChemSpider ID, BindingDB ID, ChEBI ID, ChEMBL ID, Stitch ID, Therapeutic Targets Database (TTD) ID, PharmGKB ID, HET ID PDB identificatin number, UniProt ID/Name, GenBank ID, Drug Product ID</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Drugbank drug record - data source identifier field value</rdfs:label>
+        <rdfs:label xml:lang="en">Drugbank drug record - external identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -13553,7 +13544,7 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643"/>
         <rdfs:label xml:lang="en">ReactomeReaction identifier</rdfs:label>
     </owl:Class>
     
@@ -15187,6 +15178,15 @@ RGD identifier.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000263"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001639"/>
         <rdfs:label xml:lang="en">RefSeq mRNA identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <rdfs:label xml:lang="en">Reactome identifier</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
