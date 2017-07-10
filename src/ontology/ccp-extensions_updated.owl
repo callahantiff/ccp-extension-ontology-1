@@ -63,24 +63,6 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#maxQualifiedCardinality -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#minQualifiedCardinality -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -911,7 +893,7 @@ ASN1:  geneid</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000357"/>
         <rdfs:label xml:lang="en">IRefWeb interactor type record</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000073 -->
@@ -991,7 +973,6 @@ ASN1:  geneid</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000081">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TAXONOMY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">taxonomy identifier</rdfs:label>
     </owl:Class>
     
@@ -1001,7 +982,6 @@ ASN1:  geneid</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000083">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENE_OR_GENE_PRODUCT_OR_VARIANT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">gene or gene product or variant identifier</rdfs:label>
     </owl:Class>
     
@@ -1165,7 +1145,6 @@ ASN1:  geneid</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000102">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Gene Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -1175,7 +1154,6 @@ ASN1:  geneid</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000103">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000102"/>
-        <obo:IAO_0000599>BP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GO biological process concept identifier</rdfs:label>
     </owl:Class>
     
@@ -1213,7 +1191,6 @@ ASN1:  geneid</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000112">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Protein Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -1233,6 +1210,15 @@ ASN1:  geneid</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000114">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000000"/>
         <rdfs:label xml:lang="en">identifier mapping record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000115 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000115">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000114"/>
+        <rdfs:label xml:lang="en">protein ontology identifier mapping record</rdfs:label>
     </owl:Class>
     
 
@@ -2175,7 +2161,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000198">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CHEBI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CHEBI ontology identifier</rdfs:label>
     </owl:Class>
     
@@ -2185,7 +2170,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000199">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000102"/>
-        <obo:IAO_0000599>MF_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GO molecular function concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2195,7 +2179,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000200">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000102"/>
-        <obo:IAO_0000599>CC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GO cellular component concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2206,7 +2189,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000201">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UBERON_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UBERON ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2217,7 +2199,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000202">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Cell Type Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2228,7 +2209,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000203">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Sequence Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2240,7 +2220,6 @@ RGD identifier.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000081"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NCBITAXON_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCBI Taxonomy concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2251,7 +2230,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000205">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BFO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Basic Formal Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2262,7 +2240,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000206">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Mammalian Phenotype Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2273,7 +2250,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000207">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BTO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BRENDA ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2284,7 +2260,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000208">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Human Phenotype Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2295,7 +2270,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000209">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DOID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Disease Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2306,7 +2280,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000210">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Plant Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2317,7 +2290,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000211">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PATO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Phenotypic Quality Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2328,7 +2300,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000212">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NBO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Neuro Behavior Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -2800,7 +2771,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000263">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>REFSEQ_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">RefSeq identifier</rdfs:label>
     </owl:Class>
     
@@ -2810,7 +2780,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000264">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROTEIN_DATA_BANK_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Protein Data Bank identifier</rdfs:label>
     </owl:Class>
     
@@ -2820,7 +2789,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000265">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIREF_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniRef identifier</rdfs:label>
     </owl:Class>
     
@@ -2857,7 +2825,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000269">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIPARC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniParc identifier</rdfs:label>
     </owl:Class>
     
@@ -2867,7 +2834,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000270">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PIR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PIR identifier</rdfs:label>
     </owl:Class>
     
@@ -2877,7 +2843,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000271">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OMIM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">OMIM identifier</rdfs:label>
     </owl:Class>
     
@@ -2887,7 +2852,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000272">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIGENE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniGene identifier</rdfs:label>
     </owl:Class>
     
@@ -2897,7 +2861,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000273">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>DOCUMENT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">document identifier</rdfs:label>
     </owl:Class>
     
@@ -2944,7 +2907,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000278">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EMBL identifier</rdfs:label>
     </owl:Class>
     
@@ -2954,7 +2916,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000279">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EMBL-CDS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EMBL-CDS identifier</rdfs:label>
     </owl:Class>
     
@@ -2964,7 +2925,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000280">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl identifier</rdfs:label>
     </owl:Class>
     
@@ -2974,7 +2934,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000281">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBL_TRS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl TRS identifier</rdfs:label>
     </owl:Class>
     
@@ -2984,7 +2943,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000282">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBL_PRO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ensembl PRO identifier</rdfs:label>
     </owl:Class>
     
@@ -3202,7 +3160,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000306">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000307"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OBJECT_PROPERTY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">object property identifier</rdfs:label>
     </owl:Class>
     
@@ -4023,7 +3980,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000404">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000359"/>
         <obo:IAO_0000115>possibly any one of: KEGG Drug ID, KEGG Compound ID, PubChem Compound ID, PubChem Substance ID, ChemSpider ID, BindingDB ID, ChEBI ID, ChEMBL ID, Stitch ID, Therapeutic Targets Database (TTD) ID, PharmGKB ID, HET ID PDB identificatin number, UniProt ID/Name, GenBank ID, Drug Product ID</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Drugbank drug record - external identifier field value</rdfs:label>
+        <rdfs:label xml:lang="en">Drugbank drug record - data source identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -11806,7 +11763,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001262">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Molecular Interaction Ontology concept identifier</rdfs:label>
     </owl:Class>
     
@@ -11816,7 +11772,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001263">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>AFCS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Afcs identifier</rdfs:label>
     </owl:Class>
     
@@ -11826,7 +11781,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001264">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>AGRICOLA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Agricola identifier</rdfs:label>
     </owl:Class>
     
@@ -11836,7 +11790,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001265">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>AHFSCODE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">AhfsCode identifier</rdfs:label>
     </owl:Class>
     
@@ -11846,7 +11799,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001266">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ALFRED_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Alfred identifier</rdfs:label>
     </owl:Class>
     
@@ -11856,7 +11808,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001267">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ALLERGOME_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Allergome identifier</rdfs:label>
     </owl:Class>
     
@@ -11866,7 +11817,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001268">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ANIMALQTLDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">AnimalQtlDb identifier</rdfs:label>
     </owl:Class>
     
@@ -11876,7 +11826,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001269">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>APHIDBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">AphidBase identifier</rdfs:label>
     </owl:Class>
     
@@ -11886,7 +11835,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001270">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>APIDBCRYPTODB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ApiDbCryptoDb identifier</rdfs:label>
     </owl:Class>
     
@@ -11896,7 +11844,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001271">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ARACHNOSERVER_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ArachnoServer identifier</rdfs:label>
     </owl:Class>
     
@@ -11906,7 +11853,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001272">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ARRAYEXPRESS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ArrayExpress identifier</rdfs:label>
     </owl:Class>
     
@@ -11916,7 +11862,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001273">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ASRP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Asrp identifier</rdfs:label>
     </owl:Class>
     
@@ -11926,7 +11871,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001274">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ATCCODE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">AtcCode identifier</rdfs:label>
     </owl:Class>
     
@@ -11936,7 +11880,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001275">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BEEBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BeeBase identifier</rdfs:label>
     </owl:Class>
     
@@ -11946,7 +11889,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001276">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BEETLEBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BeetleBase identifier</rdfs:label>
     </owl:Class>
     
@@ -11956,7 +11898,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001277">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BGEE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Bgee identifier</rdfs:label>
     </owl:Class>
     
@@ -11966,7 +11907,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001278">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BINDINGDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BindingDb identifier</rdfs:label>
     </owl:Class>
     
@@ -11976,7 +11916,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001279">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BINDINTERACTION_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BindInteraction identifier</rdfs:label>
     </owl:Class>
     
@@ -11986,7 +11925,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001280">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BINDTRANSLATION_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BindTranslation identifier</rdfs:label>
     </owl:Class>
     
@@ -11996,7 +11934,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001281">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BIOCYC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioCyc identifier</rdfs:label>
     </owl:Class>
     
@@ -12006,7 +11943,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001282">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>BIOGRID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">BioGrid identifier</rdfs:label>
     </owl:Class>
     
@@ -12016,7 +11952,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001283">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CAMJEDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CamjeDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12026,7 +11961,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001284">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CAZY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CAZy identifier</rdfs:label>
     </owl:Class>
     
@@ -12036,7 +11970,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001285">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CCDS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ccds identifier</rdfs:label>
     </owl:Class>
     
@@ -12046,7 +11979,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001286">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CGD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CGD identifier</rdfs:label>
     </owl:Class>
     
@@ -12056,7 +11988,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001287">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CHEMBL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Chembl identifier</rdfs:label>
     </owl:Class>
     
@@ -12066,7 +11997,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001288">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CHEMICALABSTRACTSSERVICE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ChemicalAbstractsService identifier</rdfs:label>
     </owl:Class>
     
@@ -12076,7 +12006,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001289">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CHEMSPIDER_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ChemSpider identifier</rdfs:label>
     </owl:Class>
     
@@ -12086,7 +12015,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001290">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CHITARS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ChiTaRS identifier</rdfs:label>
     </owl:Class>
     
@@ -12096,7 +12024,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001291">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CLEANEX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CleanEx identifier</rdfs:label>
     </owl:Class>
     
@@ -12106,7 +12033,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001292">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CLINICALTRIALSGOV_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ClinicalTrialsGov identifier</rdfs:label>
     </owl:Class>
     
@@ -12116,7 +12042,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001293">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>COMPLUYEAST_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">COMPLUYEAST_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -12126,7 +12051,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001294">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CONOSERVER_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ConoServer identifier</rdfs:label>
     </owl:Class>
     
@@ -12136,7 +12060,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001295">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CORUM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Corum identifier</rdfs:label>
     </owl:Class>
     
@@ -12146,7 +12069,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001296">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>COSMIC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Cosmic identifier</rdfs:label>
     </owl:Class>
     
@@ -12156,7 +12078,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001297">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CTD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ctd identifier</rdfs:label>
     </owl:Class>
     
@@ -12166,7 +12087,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001298">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>CYGD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Cygd identifier</rdfs:label>
     </owl:Class>
     
@@ -12176,7 +12096,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001299">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DAILYMED_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DailyMed identifier</rdfs:label>
     </owl:Class>
     
@@ -12186,7 +12105,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001300">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DBJ_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Dbj identifier</rdfs:label>
     </owl:Class>
     
@@ -12196,7 +12114,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001301">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DBSNP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DbSnp identifier</rdfs:label>
     </owl:Class>
     
@@ -12206,7 +12123,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001302">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DDBJ_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ddbj identifier</rdfs:label>
     </owl:Class>
     
@@ -12216,7 +12132,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001303">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DIP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DipInteraction identifier</rdfs:label>
     </owl:Class>
     
@@ -12226,7 +12141,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001304">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DIP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DipInteractor identifier</rdfs:label>
     </owl:Class>
     
@@ -12236,7 +12150,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001305">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DISPROT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DisProt identifier</rdfs:label>
     </owl:Class>
     
@@ -12246,7 +12159,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001306">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DMDM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Dmdm identifier</rdfs:label>
     </owl:Class>
     
@@ -12256,7 +12168,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001307">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DNASU_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Dnasu identifier</rdfs:label>
     </owl:Class>
     
@@ -12266,7 +12177,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001308">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DOSAC_COBS_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DOSAC_COBS_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -12276,7 +12186,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001309">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DRUGBANK_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DrugBank identifier</rdfs:label>
     </owl:Class>
     
@@ -12286,7 +12195,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001310">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DRUGCODEDIRECTORY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DrugCodeDirectory identifier</rdfs:label>
     </owl:Class>
     
@@ -12296,7 +12204,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001311">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DRUGPRODUCTSDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DrugProductsDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12306,7 +12213,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001312">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>DRUGSPRODUCTDATABASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DrugsProductDatabase identifier</rdfs:label>
     </owl:Class>
     
@@ -12316,7 +12222,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001313">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ECHOBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EchoBase identifier</rdfs:label>
     </owl:Class>
     
@@ -12326,7 +12231,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001314">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ECOCYC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EcoCyc identifier</rdfs:label>
     </owl:Class>
     
@@ -12336,7 +12240,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001315">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EGGNOG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EggNOG identifier</rdfs:label>
     </owl:Class>
     
@@ -12346,7 +12249,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001316">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EMB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Emb identifier</rdfs:label>
     </owl:Class>
     
@@ -12356,7 +12258,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001317">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBLBACTERIA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnsemblBacteria identifier</rdfs:label>
     </owl:Class>
     
@@ -12366,7 +12267,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001318">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBLFUNGI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnsemblFungi identifier</rdfs:label>
     </owl:Class>
     
@@ -12376,7 +12276,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001319">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBLMETAZOA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnsemblMetazoa identifier</rdfs:label>
     </owl:Class>
     
@@ -12386,7 +12285,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001320">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBLPLANTS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnsemblPlants identifier</rdfs:label>
     </owl:Class>
     
@@ -12396,7 +12294,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001321">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENSEMBLPROTISTS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnsemblProtists identifier</rdfs:label>
     </owl:Class>
     
@@ -12406,7 +12303,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001322">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENZYMECOMMISSION_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EnzymeCommission identifier</rdfs:label>
     </owl:Class>
     
@@ -12416,7 +12312,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001323">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ENZYME_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ENZYME identifier</rdfs:label>
     </owl:Class>
     
@@ -12426,7 +12321,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001324">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EUHCVDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EuHCVdb identifier</rdfs:label>
     </owl:Class>
     
@@ -12436,7 +12330,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001325">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EUPATHDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EuPathDB identifier</rdfs:label>
     </owl:Class>
     
@@ -12446,7 +12339,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001326">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>EVOLUTIONARYTRACE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">EvolutionaryTrace identifier</rdfs:label>
     </owl:Class>
     
@@ -12456,7 +12348,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001327">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>FISSIONYEASTPHENOTYPE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">FissionYeastPhenotype identifier</rdfs:label>
     </owl:Class>
     
@@ -12466,7 +12357,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001328">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GAD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Gad identifier</rdfs:label>
     </owl:Class>
     
@@ -12476,7 +12366,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001329">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Gdb identifier</rdfs:label>
     </owl:Class>
     
@@ -12486,7 +12375,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001330">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENATLAS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GenAtlas identifier</rdfs:label>
     </owl:Class>
     
@@ -12496,7 +12384,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001331">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENBANK_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GenBank identifier</rdfs:label>
     </owl:Class>
     
@@ -12506,7 +12393,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001332">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENE3D_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Gene3d identifier</rdfs:label>
     </owl:Class>
     
@@ -12516,7 +12402,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001333">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENECARD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GeneCard identifier</rdfs:label>
     </owl:Class>
     
@@ -12526,7 +12411,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001334">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENEFARM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GeneFarm identifier</rdfs:label>
     </owl:Class>
     
@@ -12536,7 +12420,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001335">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENETREE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GeneTree identifier</rdfs:label>
     </owl:Class>
     
@@ -12546,7 +12429,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001336">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENEVESTIGATOR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Genevestigator identifier</rdfs:label>
     </owl:Class>
     
@@ -12556,7 +12438,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001337">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENOLIST_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GenoList identifier</rdfs:label>
     </owl:Class>
     
@@ -12566,7 +12447,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001338">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENOMEREVIEWS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GenomeReviews identifier</rdfs:label>
     </owl:Class>
     
@@ -12576,7 +12456,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001339">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GENOMERNAI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GenomeRNAi identifier</rdfs:label>
     </owl:Class>
     
@@ -12586,7 +12465,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001340">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GEO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Geo identifier</rdfs:label>
     </owl:Class>
     
@@ -12596,7 +12474,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001341">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GERMONLINE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GermOnline identifier</rdfs:label>
     </owl:Class>
     
@@ -12606,7 +12483,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001342">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GLYCOSUITEDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GlycoSuiteDB identifier</rdfs:label>
     </owl:Class>
     
@@ -12616,7 +12492,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001343">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GPCRDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GPCRDB identifier</rdfs:label>
     </owl:Class>
     
@@ -12626,7 +12501,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001344">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GRAMENE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Gramene identifier</rdfs:label>
     </owl:Class>
     
@@ -12636,7 +12510,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001345">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>GUIDETOPHARMACOLOGY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GuideToPharmacology identifier</rdfs:label>
     </owl:Class>
     
@@ -12646,7 +12519,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001346">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>H_INVDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">H_InvDB identifier</rdfs:label>
     </owl:Class>
     
@@ -12656,7 +12528,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001347">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HAMAPANNOTATIONRULE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HamapAnnotationRule identifier</rdfs:label>
     </owl:Class>
     
@@ -12666,7 +12537,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001348">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HAMAP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HAMAP identifier</rdfs:label>
     </owl:Class>
     
@@ -12676,7 +12546,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001349">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HAMAPRULE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HamapRule identifier</rdfs:label>
     </owl:Class>
     
@@ -12686,7 +12555,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001350">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HCDM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Hcdm identifier</rdfs:label>
     </owl:Class>
     
@@ -12696,7 +12564,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001351">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HINV_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Hinv identifier</rdfs:label>
     </owl:Class>
     
@@ -12706,7 +12573,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001352">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HOGENOM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HOGENOM identifier</rdfs:label>
     </owl:Class>
     
@@ -12716,7 +12582,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001353">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HOMEODB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HomeoDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12726,7 +12591,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001354">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HOMOLOGENEGROUP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HomologeneGroup identifier</rdfs:label>
     </owl:Class>
     
@@ -12736,7 +12600,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001355">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HORDE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Horde identifier</rdfs:label>
     </owl:Class>
     
@@ -12746,7 +12609,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001356">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HOVERGEN_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HOVERGEN identifier</rdfs:label>
     </owl:Class>
     
@@ -12756,7 +12618,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001357">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HPA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HPA identifier</rdfs:label>
     </owl:Class>
     
@@ -12766,7 +12627,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001358">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HPRD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Hprd identifier</rdfs:label>
     </owl:Class>
     
@@ -12776,7 +12636,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001359">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HSSP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HSSP identifier</rdfs:label>
     </owl:Class>
     
@@ -12786,7 +12645,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001360">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HUGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Huge identifier</rdfs:label>
     </owl:Class>
     
@@ -12796,7 +12654,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001361">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>HUMANCYCGENE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HumanCycGene identifier</rdfs:label>
     </owl:Class>
     
@@ -12806,7 +12663,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001362">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IMEX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Imex identifier</rdfs:label>
     </owl:Class>
     
@@ -12816,7 +12672,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001363">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IMGT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Imgt identifier</rdfs:label>
     </owl:Class>
     
@@ -12826,7 +12681,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001364">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INCRNADB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IncRnaDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12836,7 +12690,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001365">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INNATEDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">InnateDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12846,7 +12699,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001366">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INPARANOID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">InParanoid identifier</rdfs:label>
     </owl:Class>
     
@@ -12856,7 +12708,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001367">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INSDCPROJECT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">InsdcProject identifier</rdfs:label>
     </owl:Class>
     
@@ -12866,7 +12717,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001368">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INTACT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IntAct identifier</rdfs:label>
     </owl:Class>
     
@@ -12876,7 +12726,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001369">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INTERFILDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">InterFilDb identifier</rdfs:label>
     </owl:Class>
     
@@ -12886,7 +12735,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001370">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>INTERPRO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">InterPro identifier</rdfs:label>
     </owl:Class>
     
@@ -12896,7 +12744,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001371">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IPI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ipi identifier</rdfs:label>
     </owl:Class>
     
@@ -12906,7 +12753,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001372">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBCRIG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebCrig identifier</rdfs:label>
     </owl:Class>
     
@@ -12916,7 +12762,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001373">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBCROG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebCrog identifier</rdfs:label>
     </owl:Class>
     
@@ -12926,7 +12771,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001374">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBICRIG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebIcrig identifier</rdfs:label>
     </owl:Class>
     
@@ -12936,7 +12780,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001375">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBICROG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebIcrog identifier</rdfs:label>
     </owl:Class>
     
@@ -12946,7 +12789,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001376">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBIRIG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebIrig identifier</rdfs:label>
     </owl:Class>
     
@@ -12956,7 +12798,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001377">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBIROG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebIrog identifier</rdfs:label>
     </owl:Class>
     
@@ -12966,7 +12807,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001378">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBRIG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebRig identifier</rdfs:label>
     </owl:Class>
     
@@ -12976,7 +12816,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001379">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IREFWEBROG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IRefWebRog identifier</rdfs:label>
     </owl:Class>
     
@@ -12986,7 +12825,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001380">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ISRCTN_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Isrctn identifier</rdfs:label>
     </owl:Class>
     
@@ -12996,7 +12834,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001381">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IUPHARLIGAND_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IupharLigand identifier</rdfs:label>
     </owl:Class>
     
@@ -13006,7 +12843,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001382">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>IUPHARRECEPTOR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">IupharReceptor identifier</rdfs:label>
     </owl:Class>
     
@@ -13016,7 +12852,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001383">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>KEGGCOMPOUND_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">KeggCompound identifier</rdfs:label>
     </owl:Class>
     
@@ -13026,7 +12861,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001384">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>KEGGDRUG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">KeggDrug identifier</rdfs:label>
     </owl:Class>
     
@@ -13036,7 +12870,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001385">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>KEGGGENE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">KeggGene identifier</rdfs:label>
     </owl:Class>
     
@@ -13046,7 +12879,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001386">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>KEGGPATHWAY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">KeggPathway identifier</rdfs:label>
     </owl:Class>
     
@@ -13056,7 +12888,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001387">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>LEGIOLIST_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">LegioList identifier</rdfs:label>
     </owl:Class>
     
@@ -13066,7 +12897,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001388">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>LEPROMA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Leproma identifier</rdfs:label>
     </owl:Class>
     
@@ -13076,7 +12906,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001389">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MAIZEGDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MaizeGdb identifier</rdfs:label>
     </owl:Class>
     
@@ -13086,7 +12915,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001390">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MAMITTRNADB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MamitTrnaDb identifier</rdfs:label>
     </owl:Class>
     
@@ -13096,7 +12924,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001391">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MATRIXDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MatrixDb identifier</rdfs:label>
     </owl:Class>
     
@@ -13106,7 +12933,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001392">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MEDGEN_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MedGen identifier</rdfs:label>
     </owl:Class>
     
@@ -13116,7 +12942,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001393">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MEROPS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Merops identifier</rdfs:label>
     </owl:Class>
     
@@ -13126,7 +12951,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001394">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MESH_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Mesh identifier</rdfs:label>
     </owl:Class>
     
@@ -13136,7 +12960,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001395">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MICADO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Micado identifier</rdfs:label>
     </owl:Class>
     
@@ -13146,7 +12969,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001396">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MINT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Mint identifier</rdfs:label>
     </owl:Class>
     
@@ -13156,7 +12978,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001397">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MIRBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MiRBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13166,7 +12987,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001398">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MIRTE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Mirte identifier</rdfs:label>
     </owl:Class>
     
@@ -13176,7 +12996,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001399">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MODBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ModBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13186,7 +13005,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001400">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MPACT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Mpact identifier</rdfs:label>
     </owl:Class>
     
@@ -13196,7 +13014,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001401">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MPIDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MpiDb identifier</rdfs:label>
     </owl:Class>
     
@@ -13206,7 +13023,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001402">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MUTDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MutDb identifier</rdfs:label>
     </owl:Class>
     
@@ -13216,7 +13032,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001403">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>MYCOCLAP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MycoCLAP identifier</rdfs:label>
     </owl:Class>
     
@@ -13226,7 +13041,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001404">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NASONIABASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NasoniaBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13236,7 +13050,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001405">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NDC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NationalDrugCodeDirectory identifier</rdfs:label>
     </owl:Class>
     
@@ -13246,7 +13059,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001406">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NCBITRACE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NcbiTrace identifier</rdfs:label>
     </owl:Class>
     
@@ -13256,7 +13068,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001407">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NEXTBIO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NextBio identifier</rdfs:label>
     </owl:Class>
     
@@ -13266,7 +13077,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001408">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>NEXTPROT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NeXtProt identifier</rdfs:label>
     </owl:Class>
     
@@ -13276,7 +13086,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001409">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OGP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">OGP identifier</rdfs:label>
     </owl:Class>
     
@@ -13286,7 +13095,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001410">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OMA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">OMA identifier</rdfs:label>
     </owl:Class>
     
@@ -13296,7 +13104,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001411">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OMIM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Omim identifier</rdfs:label>
     </owl:Class>
     
@@ -13306,7 +13113,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001412">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>OPHID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Ophid identifier</rdfs:label>
     </owl:Class>
     
@@ -13316,7 +13122,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001413">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ORDO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Orphanet identifier</rdfs:label>
     </owl:Class>
     
@@ -13326,7 +13131,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001414">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ORTHODB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">OrthoDB identifier</rdfs:label>
     </owl:Class>
     
@@ -13336,7 +13140,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001415">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PANTHER_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Panther identifier</rdfs:label>
     </owl:Class>
     
@@ -13346,7 +13149,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001416">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PATHEMA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pathema identifier</rdfs:label>
     </owl:Class>
     
@@ -13356,7 +13158,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001417">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PATHWAY_INTERACTION_DB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pathway_Interaction_DB identifier</rdfs:label>
     </owl:Class>
     
@@ -13366,7 +13167,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001418">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PATRIC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PATRIC identifier</rdfs:label>
     </owl:Class>
     
@@ -13376,7 +13176,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001419">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PAXDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PaxDb identifier</rdfs:label>
     </owl:Class>
     
@@ -13386,7 +13185,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001420">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PBR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pbr identifier</rdfs:label>
     </owl:Class>
     
@@ -13396,7 +13194,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001421">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PDB_J_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PDB_J identifier</rdfs:label>
     </owl:Class>
     
@@ -13406,7 +13203,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001422">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PDB_SUM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PDB_sum identifier</rdfs:label>
     </owl:Class>
     
@@ -13416,7 +13212,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001423">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PDBEUROPE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PdbEurope identifier</rdfs:label>
     </owl:Class>
     
@@ -13426,7 +13221,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001424">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PDBLIGAND_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PdbLigand identifier</rdfs:label>
     </owl:Class>
     
@@ -13436,7 +13230,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001425">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PEPTIDEATLAS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PeptideAtlas identifier</rdfs:label>
     </owl:Class>
     
@@ -13446,7 +13239,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001426">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PEROXIBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PeroxiBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13456,7 +13248,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001427">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PFAM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pfam identifier</rdfs:label>
     </owl:Class>
     
@@ -13466,7 +13257,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001428">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHARMGKBHAPLOTYPE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PharmGkbHaplotype identifier</rdfs:label>
     </owl:Class>
     
@@ -13476,7 +13266,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001429">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHARMGKB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PharmGkb identifier</rdfs:label>
     </owl:Class>
     
@@ -13486,7 +13275,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001430">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHARMGKBVARIANTLOCATION_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PharmGkbVariantLocation identifier</rdfs:label>
     </owl:Class>
     
@@ -13496,7 +13284,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001431">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHOSPHOSITE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PhosphoSite identifier</rdfs:label>
     </owl:Class>
     
@@ -13506,7 +13293,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001432">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHOSSITE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PhosSite identifier</rdfs:label>
     </owl:Class>
     
@@ -13516,7 +13302,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001433">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PHYLOMEDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PhylomeDB identifier</rdfs:label>
     </owl:Class>
     
@@ -13526,7 +13311,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001434">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PICTAR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pictar identifier</rdfs:label>
     </owl:Class>
     
@@ -13536,7 +13320,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001435">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PIRNABANK_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PiRnaBank identifier</rdfs:label>
     </owl:Class>
     
@@ -13546,7 +13329,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001436">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PIRNR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pirnr identifier</rdfs:label>
     </owl:Class>
     
@@ -13556,7 +13338,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001437">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PIRSF_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PirSf identifier</rdfs:label>
     </owl:Class>
     
@@ -13566,7 +13347,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001438">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PIRSR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pirsr identifier</rdfs:label>
     </owl:Class>
     
@@ -13576,7 +13356,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001439">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PMAP_CUTDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PMAP_CutDB identifier</rdfs:label>
     </owl:Class>
     
@@ -13586,7 +13365,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001440">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>POMBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PomBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13596,7 +13374,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001441">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PPTASEDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PptaseDB identifier</rdfs:label>
     </owl:Class>
     
@@ -13606,7 +13383,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001442">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PREMOD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PreMod identifier</rdfs:label>
     </owl:Class>
     
@@ -13616,7 +13392,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001443">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PRF_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Prf identifier</rdfs:label>
     </owl:Class>
     
@@ -13626,7 +13401,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001444">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PRIDE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PRIDE identifier</rdfs:label>
     </owl:Class>
     
@@ -13636,7 +13410,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001445">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PRINTS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Prints identifier</rdfs:label>
     </owl:Class>
     
@@ -13646,7 +13419,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001446">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PRODOM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ProDom identifier</rdfs:label>
     </owl:Class>
     
@@ -13656,7 +13428,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001447">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROMEX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ProMEX identifier</rdfs:label>
     </owl:Class>
     
@@ -13666,7 +13437,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001448">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROSITE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Prosite identifier</rdfs:label>
     </owl:Class>
     
@@ -13676,7 +13446,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001449">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROTCLUSTDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ProtClustDB identifier</rdfs:label>
     </owl:Class>
     
@@ -13686,7 +13455,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001450">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROTEINMODELPORTAL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ProteinModelPortal identifier</rdfs:label>
     </owl:Class>
     
@@ -13696,7 +13464,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001451">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PROTONET_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ProtoNet identifier</rdfs:label>
     </owl:Class>
     
@@ -13706,7 +13473,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001452">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PSEUDOCAP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PseudoCap identifier</rdfs:label>
     </owl:Class>
     
@@ -13716,7 +13482,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001453">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PSEUDOGENEORG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PseudogeneOrg identifier</rdfs:label>
     </owl:Class>
     
@@ -13726,7 +13491,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001454">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PSIMOD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PsiMod identifier</rdfs:label>
     </owl:Class>
     
@@ -13736,7 +13500,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001455">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PUBCHEMBIOASSAY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PubChemBioAssay identifier</rdfs:label>
     </owl:Class>
     
@@ -13746,7 +13509,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001456">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PUBCHEMCOMPOUND_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PubChemCompound identifier</rdfs:label>
     </owl:Class>
     
@@ -13756,7 +13518,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001457">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PUBCHEMSUBSTANCE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PubChemSubstance identifier</rdfs:label>
     </owl:Class>
     
@@ -13766,7 +13527,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001458">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>PW_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Pw identifier</rdfs:label>
     </owl:Class>
     
@@ -13776,7 +13536,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001459">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>RATMAP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">RatMap identifier</rdfs:label>
     </owl:Class>
     
@@ -13786,7 +13545,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001460">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>RDO_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Rdo identifier</rdfs:label>
     </owl:Class>
     
@@ -13795,8 +13553,7 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001461">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643"/>
-        <obo:IAO_0000599>REACTOMEREACTION_</obo:IAO_0000599>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <rdfs:label xml:lang="en">ReactomeReaction identifier</rdfs:label>
     </owl:Class>
     
@@ -13806,7 +13563,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001462">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>REBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">REBASE identifier</rdfs:label>
     </owl:Class>
     
@@ -13816,7 +13572,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001463">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>REFSNP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">RefSnp identifier</rdfs:label>
     </owl:Class>
     
@@ -13826,7 +13581,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001464">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>REPRODUCTION_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">REPRODUCTION_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -13836,7 +13590,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001465">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>RFAM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Rfam identifier</rdfs:label>
     </owl:Class>
     
@@ -13846,7 +13599,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001466">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ROUGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Rouge identifier</rdfs:label>
     </owl:Class>
     
@@ -13856,7 +13608,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001467">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>RULEBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">RuleBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13866,7 +13617,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001468">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SAAS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Saas identifier</rdfs:label>
     </owl:Class>
     
@@ -13876,7 +13626,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001469">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SABIO_RK_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SABIO_RK identifier</rdfs:label>
     </owl:Class>
     
@@ -13886,7 +13635,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001470">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SBKB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SBKB identifier</rdfs:label>
     </owl:Class>
     
@@ -13896,7 +13644,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001471">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SLC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Slc identifier</rdfs:label>
     </owl:Class>
     
@@ -13906,7 +13653,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001472">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SMART_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Smart identifier</rdfs:label>
     </owl:Class>
     
@@ -13916,7 +13662,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001473">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SMR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SMR identifier</rdfs:label>
     </owl:Class>
     
@@ -13926,7 +13671,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001474">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SNOMEDCT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SnoMedCt identifier</rdfs:label>
     </owl:Class>
     
@@ -13936,7 +13680,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001475">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SNORNABASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SnoRnaBase identifier</rdfs:label>
     </owl:Class>
     
@@ -13946,7 +13689,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001476">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SNPRS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SnpRs identifier</rdfs:label>
     </owl:Class>
     
@@ -13956,7 +13698,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001477">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SOURCE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SOURCE identifier</rdfs:label>
     </owl:Class>
     
@@ -13966,7 +13707,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001478">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>STRING_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">STRING identifier</rdfs:label>
     </owl:Class>
     
@@ -13976,7 +13716,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001479">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SUPERFAM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SuperFam identifier</rdfs:label>
     </owl:Class>
     
@@ -13986,7 +13725,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001480">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SUPFAM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SUPFAM identifier</rdfs:label>
     </owl:Class>
     
@@ -13996,7 +13734,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001481">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>SWISS_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SWISS_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -14006,7 +13743,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001482">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TCDB_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TCDB identifier</rdfs:label>
     </owl:Class>
     
@@ -14016,7 +13752,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001483">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>THERAPEUTICTARGETSDATABASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TherapeuticTargetsDatabase identifier</rdfs:label>
     </owl:Class>
     
@@ -14026,7 +13761,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001484">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TIGRFAMS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TigrFams identifier</rdfs:label>
     </owl:Class>
     
@@ -14036,7 +13770,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001485">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TRANSFACFACTOR_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TransfacFactor identifier</rdfs:label>
     </owl:Class>
     
@@ -14046,7 +13779,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001486">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TRANSFACGENE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TransfacGene identifier</rdfs:label>
     </owl:Class>
     
@@ -14056,7 +13788,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001487">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TRANSFACMATRIX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TransfacMatrix identifier</rdfs:label>
     </owl:Class>
     
@@ -14066,7 +13797,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001488">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>TUBERCULIST_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">TubercuList identifier</rdfs:label>
     </owl:Class>
     
@@ -14076,7 +13806,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001489">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UCD_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UCD_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -14086,7 +13815,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001490">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UCSCGENOMEBROWSER_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UcscGenomeBrowser identifier</rdfs:label>
     </owl:Class>
     
@@ -14096,7 +13824,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001492">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNCHARACTERIZEDPFAM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UncharacterizedPfam identifier</rdfs:label>
     </owl:Class>
     
@@ -14106,7 +13833,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001493">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIPATHWAY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniPathway identifier</rdfs:label>
     </owl:Class>
     
@@ -14116,7 +13842,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001494">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIPROTENTRYNAME_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniProtEntryName identifier</rdfs:label>
     </owl:Class>
     
@@ -14126,7 +13851,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001495">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNIPROTISOFORM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniProtIsoform identifier</rdfs:label>
     </owl:Class>
     
@@ -14136,7 +13860,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001496">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>UNNORMALIZEDMOLECULARINTERACTIONONTOLOGYTERM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UnNormalizedMolecularInteractionOntologyTerm identifier</rdfs:label>
     </owl:Class>
     
@@ -14146,7 +13869,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001497">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>VBRC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Vbrc identifier</rdfs:label>
     </owl:Class>
     
@@ -14156,7 +13878,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001498">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>VECTORBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">VectorBase identifier</rdfs:label>
     </owl:Class>
     
@@ -14166,7 +13887,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001499">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>VEGA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Vega identifier</rdfs:label>
     </owl:Class>
     
@@ -14176,7 +13896,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001500">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>WORLD_2DPAGE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">World_2DPAGE identifier</rdfs:label>
     </owl:Class>
     
@@ -14186,7 +13905,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001501">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>XENBASE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">XenBase identifier</rdfs:label>
     </owl:Class>
     
@@ -14196,7 +13914,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001502">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <obo:IAO_0000599>ZNFGENECATALOG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ZnfGeneCatalog identifier</rdfs:label>
     </owl:Class>
     
@@ -14206,7 +13923,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001503">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>CROSSREFERENCEURL_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CrossReferenceUrl identifier</rdfs:label>
     </owl:Class>
     
@@ -14216,7 +13932,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001504">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>DIPEXPERIMENT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">DipInteractionExperiment identifier</rdfs:label>
     </owl:Class>
     
@@ -14226,7 +13941,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001505">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>ISBN_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ISBN identifier</rdfs:label>
     </owl:Class>
     
@@ -14236,7 +13950,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001506">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>MEDLINE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Medline identifier</rdfs:label>
     </owl:Class>
     
@@ -14246,7 +13959,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001508">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>WIKIPEDIA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">Wikipedia identifier</rdfs:label>
     </owl:Class>
     
@@ -14265,7 +13977,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001510">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>GOA_REFERENCE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GOA reference identifier</rdfs:label>
     </owl:Class>
     
@@ -14275,7 +13986,6 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001511">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000341"/>
-        <obo:IAO_0000599>GO_REFERENCE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">GO reference identifier</rdfs:label>
     </owl:Class>
     
@@ -15479,6 +15189,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Unified Medical Language System</obo:IAO_0000115>
         <obo:IAO_0000599>UMLS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UMLS identifier</rdfs:label>
+        <owl:versionInfo>2017AA</owl:versionInfo>
     </owl:Class>
     
 
@@ -15490,7 +15201,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Common Terminology Criteria for Adverse Events</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_CTCAE_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CTCAE identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15502,7 +15213,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>International Classification for Nursing Practice</obo:IAO_0000115>
         <obo:IAO_0000599>ICNP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ICNP identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2015</owl:versionInfo>
     </owl:Class>
     
 
@@ -15514,7 +15225,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Biomedical Research Integrated Domain Group Model</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_BRIDG_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_BRIDG identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15526,6 +15237,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>National Institute of Child Health and Human Development</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_NICHD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_NICHD identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15537,6 +15249,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>UMDNS: product category thesaurus</obo:IAO_0000115>
         <obo:IAO_0000599>UMD_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UMD identifier</rdfs:label>
+        <owl:versionInfo>2017</owl:versionInfo>
     </owl:Class>
     
 
@@ -15546,8 +15259,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000005">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>Zebrafish Model Organism Database</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_ZFIN_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_ZFin_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_ZFin identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15559,7 +15273,19 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Healthcare Common Procedure Coding System</obo:IAO_0000115>
         <obo:IAO_0000599>HCPCS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HCPCS identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000007 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000007">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <obo:IAO_0000115>Medical Subject Headings</obo:IAO_0000115>
+        <obo:IAO_0000599>MSH_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">MSH identifier</rdfs:label>
+        <owl:versionInfo>2015_2014_09_08</owl:versionInfo>
     </owl:Class>
     
 
@@ -15569,8 +15295,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000008">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>Prostate Imaging Reporting and Data System</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_PI_RADS_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_PI-RADS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_PI-RADS identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15582,6 +15309,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Neuronames Brain Hierarchy</obo:IAO_0000115>
         <obo:IAO_0000599>NEU_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NEU identifier</rdfs:label>
+        <owl:versionInfo>2016_06_14</owl:versionInfo>
     </owl:Class>
     
 
@@ -15593,18 +15321,9 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Physicians&apos; Current Procedural Terminology</obo:IAO_0000115>
         <obo:IAO_0000599>CPT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CPT identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2005</owl:versionInfo>
     </owl:Class>
     
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001643">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
-        <rdfs:label xml:lang="en">Reactome identifier</rdfs:label>
-    </owl:Class>
-</rdf:RDF>
 
 
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000011 -->
@@ -15614,7 +15333,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Clinical Care Classification</obo:IAO_0000115>
         <obo:IAO_0000599>CCC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CCC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2_5</owl:versionInfo>
     </owl:Class>
     
 
@@ -15626,7 +15345,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Code on Dental Procedures and Nomenclature 2017 (CDT 2017)</obo:IAO_0000115>
         <obo:IAO_0000599>CDT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CDT identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
     </owl:Class>
     
 
@@ -15636,8 +15355,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000013">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>NCI Health Level 7</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_NCI_HL7_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_NCI-HL7_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_NCI-HL7 identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15649,7 +15369,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Cancer Research Center of Hawaii Nutrition Terminology</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_CRCH_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CRCH identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15661,7 +15381,19 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>HL7 Vocabulary Version 3.0</obo:IAO_0000115>
         <obo:IAO_0000599>HL7V3.0_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HL7V3.0 identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2016_07</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000016 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000016">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <obo:IAO_0000115>KEGG Pathway Database</obo:IAO_0000115>
+        <obo:IAO_0000599>NCI_KEGG_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">NCI_KEGG identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15673,6 +15405,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Perioperative Nursing Data Set</obo:IAO_0000115>
         <obo:IAO_0000599>PNDS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">PNDS identifier</rdfs:label>
+        <owl:versionInfo>2011</owl:versionInfo>
     </owl:Class>
     
 
@@ -15684,6 +15417,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Source of Payment Typology</obo:IAO_0000115>
         <obo:IAO_0000599>SOP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">SOP identifier</rdfs:label>
+        <owl:versionInfo>6</owl:versionInfo>
     </owl:Class>
     
 
@@ -15695,7 +15429,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Library of Congress Subject Headings</obo:IAO_0000115>
         <obo:IAO_0000599>LCH_NW_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">LCH_NW identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2013</owl:versionInfo>
     </owl:Class>
     
 
@@ -15707,7 +15441,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Clinical Data Interchange Standards Consortium</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_CDISC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CDISC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15717,8 +15451,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000021">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>NCI Dictionary of Cancer Terms</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_NCI_GLOSS_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_NCI-GLOSS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_NCI-GLOSS identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15730,7 +15465,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>MEDCIN</obo:IAO_0000115>
         <obo:IAO_0000599>MEDCIN_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MEDCIN identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>3_2016_12_16</owl:versionInfo>
     </owl:Class>
     
 
@@ -15742,6 +15477,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>National Cancer Institute Nature Pathway Interaction Database</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_PID_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_PID identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15753,6 +15489,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Geopolitical Entities</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_GENC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_GENC identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15764,7 +15501,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>LOINC 2.15</obo:IAO_0000115>
         <obo:IAO_0000599>LNC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">LNC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>No Version Provided</owl:versionInfo>
     </owl:Class>
     
 
@@ -15774,9 +15511,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000026">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>Cancer Therapy Evaluation Program - Simple Disease Classification</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_CTEP_SDC_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_CTEP-SDC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CTEP-SDC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15788,7 +15525,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>ICD-10-PCS</obo:IAO_0000115>
         <obo:IAO_0000599>ICD10PCS_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ICD10PCS identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
     </owl:Class>
     
 
@@ -15800,7 +15537,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Manufacturers of Vaccines</obo:IAO_0000115>
         <obo:IAO_0000599>MVX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MVX identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017_02_08</owl:versionInfo>
     </owl:Class>
     
 
@@ -15812,6 +15549,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Jackson Laboratories Mouse Terminology</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_JAX_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_JAX identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15823,6 +15561,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>NCI Developmental Therapeutics Program</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_DTP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_DTP identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15834,6 +15573,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>NCI Division of Cancer Prevention Program</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_DCP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_DCP identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15845,7 +15585,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>International Classification of Functioning</obo:IAO_0000115>
         <obo:IAO_0000599>ICF_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ICF identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2008_12_19</owl:versionInfo>
     </owl:Class>
     
 
@@ -15855,9 +15595,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000033">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>BioCarta online maps of molecular pathways</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_BIOC_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_BioC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_BioC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15869,6 +15609,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Digital Imaging Communications in Medicine</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_DICOM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_DICOM identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15880,7 +15621,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>HCPCS Version of Current Procedural Terminology (CPT)</obo:IAO_0000115>
         <obo:IAO_0000599>HCPT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HCPT identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
     </owl:Class>
     
 
@@ -15892,7 +15633,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Consumer Health Vocabulary</obo:IAO_0000115>
         <obo:IAO_0000599>CHV_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">CHV identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2011_02</owl:versionInfo>
     </owl:Class>
     
 
@@ -15904,6 +15645,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>RxNorm Vocabulary</obo:IAO_0000115>
         <obo:IAO_0000599>RXNORM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">RXNORM identifier</rdfs:label>
+        <owl:versionInfo>16AB_170306F</owl:versionInfo>
     </owl:Class>
     
 
@@ -15915,6 +15657,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Unified Code for Units of Measure</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_UCUM_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_UCUM identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15924,9 +15667,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000039">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>International Classification of Functioning</obo:IAO_0000115>
-        <obo:IAO_0000599>ICF_CY_</obo:IAO_0000599>
+        <obo:IAO_0000599>ICF-CY_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ICF-CY identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2008</owl:versionInfo>
     </owl:Class>
     
 
@@ -15938,7 +15681,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Foundational Model of Anatomy Ontology</obo:IAO_0000115>
         <obo:IAO_0000599>FMA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">FMA identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>4_0</owl:versionInfo>
     </owl:Class>
     
 
@@ -15950,7 +15693,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>U.S. Centers for Disease Control and Prevention</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_CDC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CDC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15962,6 +15705,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>National Council for Prescription Drug Programs</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_NCPDP_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_NCPDP identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15973,6 +15717,19 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>National Uniform Claim Committee - Health Care Provider Taxonomy</obo:IAO_0000115>
         <obo:IAO_0000599>NUCCPT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NUCCPT identifier</rdfs:label>
+        <owl:versionInfo>16.1</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000044 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000044">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <obo:IAO_0000115>NCBI Taxonomy</obo:IAO_0000115>
+        <obo:IAO_0000599>NCBI_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">NCBI identifier</rdfs:label>
+        <owl:versionInfo>2016_03_21</owl:versionInfo>
     </owl:Class>
     
 
@@ -15982,9 +15739,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000045">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>Content Archive Resource Exchange Lexicon</obo:IAO_0000115>
-        <obo:IAO_0000599>NCI_CARELEX_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_CareLex_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_CareLex identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -15996,6 +15753,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>International Conference on Harmonization</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_ICH_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_ICH identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -16007,6 +15765,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Nursing Interventions Classification (NIC)</obo:IAO_0000115>
         <obo:IAO_0000599>NIC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NIC identifier</rdfs:label>
+        <owl:versionInfo>2005</owl:versionInfo>
     </owl:Class>
     
 
@@ -16018,6 +15777,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Global Alignment of Immunization Safety Assessment in pregnancy</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_GAIA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_GAIA identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -16029,7 +15789,19 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>HCPCS Version of Current Dental Terminology (CDT)</obo:IAO_0000115>
         <obo:IAO_0000599>HCDT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HCDT identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000050 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000050">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
+        <obo:IAO_0000115>DrugBank</obo:IAO_0000115>
+        <obo:IAO_0000599>DRUGBANK_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">DRUGBANK identifier</rdfs:label>
+        <owl:versionInfo>5.0_2017_02_02</owl:versionInfo>
     </owl:Class>
     
 
@@ -16039,9 +15811,9 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_tjc_1000051">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000342"/>
         <obo:IAO_0000115>NCI Thesaurus</obo:IAO_0000115>
-        <obo:IAO_0000599>NCIT_</obo:IAO_0000599>
+        <obo:IAO_0000599>NCI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2016_09D</owl:versionInfo>
     </owl:Class>
     
 
@@ -16053,6 +15825,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>National Drug File</obo:IAO_0000115>
         <obo:IAO_0000599>NDFRT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NDFRT identifier</rdfs:label>
+        <owl:versionInfo>2017_03_06</owl:versionInfo>
     </owl:Class>
     
 
@@ -16064,7 +15837,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Alternative Billing Concepts</obo:IAO_0000115>
         <obo:IAO_0000599>ALT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">ALT identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2009</owl:versionInfo>
     </owl:Class>
     
 
@@ -16076,7 +15849,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Metathesaurus HCPCS Hierarchical Terms</obo:IAO_0000115>
         <obo:IAO_0000599>MTHHH_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">MTHHH identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2017</owl:versionInfo>
     </owl:Class>
     
 
@@ -16088,6 +15861,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>Registry Nomenclature Information System</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_RENI_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_RENI identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
     
 
@@ -16099,7 +15873,7 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>HUGO Gene Nomenclature Committee</obo:IAO_0000115>
         <obo:IAO_0000599>HGNC_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">HGNC identifier</rdfs:label>
-        <owl:versionInfo></owl:versionInfo>
+        <owl:versionInfo>2016_04</owl:versionInfo>
     </owl:Class>
     
 
@@ -16111,7 +15885,10 @@ RGD identifier.</obo:IAO_0000115>
         <obo:IAO_0000115>U.S. Food and Drug Administration</obo:IAO_0000115>
         <obo:IAO_0000599>NCI_FDA_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">NCI_FDA identifier</rdfs:label>
+        <owl:versionInfo>1609D</owl:versionInfo>
     </owl:Class>
+</rdf:RDF>
+
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
