@@ -427,19 +427,6 @@ Note that several fields contain database cross-reference (dbxrefs) in the forma
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000031 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000031">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000030"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the unique identifier for a gene
-ASN1:  geneid</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI Gene identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000032 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000032">
@@ -453,6 +440,7 @@ ASN1:  geneid</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000034">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000193"/>
         <rdfs:label xml:lang="en">ontology concept identifier field value</rdfs:label>
     </owl:Class>
     
@@ -810,15 +798,6 @@ ASN1:  geneid</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000086 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000086">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000085"/>
-        <rdfs:label xml:lang="en">NCBI gene_info record</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000087 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000087">
@@ -1027,186 +1006,6 @@ ASN1:  geneid</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000116">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
         <rdfs:label xml:lang="en">mapped data source identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000223"/>
-        <rdfs:label xml:lang="en">NCBI gene_info record field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000118 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000118">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000034"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000089"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the unique identifier provided by NCBI Taxonomy for the species or strain/isolate</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI taxonomy identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000119 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000119">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the default symbol for the gene
-ASN1:  gene-&gt;locus</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI symbol field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000120 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000120">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000100"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the LocusTag value
-ASN1:  gene-&gt;locus-tag</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI locus tag field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000121 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000121">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000047"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>set of unofficial symbols for the gene</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI synonyms field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000122 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000122">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000090"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>set of identifiers in other databases for this gene.</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI database cross reference field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000123 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000123">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the chromosome on which this gene is placed. for mitochondrial genomes, the value &apos;MT&apos; is used.</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI chromosome field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000124 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000124">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000101"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the map location for this gene</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI map location field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000125 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000125">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000091"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>a descriptive name for this gene</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI description field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000126 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000126">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000092"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the type assigned to the gene according to the list of options provided in https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/source/src/objects/entrezgene/entrezgene.asn</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI gene type field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000127 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000127">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000093"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>indicates that this symbol is from a nomenclature authority</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI symbol from nomenclature authority field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000128 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000128">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000094"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>indicates that this full name is from a nomenclature authority</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI full name from nomenclature authority field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000129 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000129">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000096"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>indicates the status of the name from the nomenclature authority (O for official, I for interim)</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI nomenclature authority status field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000130 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000130">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000098"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>pipe-delimited set of some alternate descriptions that have been assigned to a GeneID</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI other designations field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000131 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000131">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000052"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000117"/>
-        <obo:IAO_0000115>the last date a gene record was updated, in YYYYMMDD format</obo:IAO_0000115>
-        <obo:IAO_0000119>ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/README</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NCBI modification date field value</rdfs:label>
     </owl:Class>
     
 
@@ -1925,15 +1724,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000194 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000194">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000193"/>
-        <rdfs:label xml:lang="en">ontology concept identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000195 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000195">
@@ -2156,7 +1946,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000216"/>
-        <rdfs:label xml:lang="en">UniProt protein record field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record field value</rdfs:label>
     </owl:Class>
     
 
@@ -2164,7 +1954,6 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000218 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000218">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000118"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000216"/>
         <rdfs:label xml:lang="en">UniProt identifier mapping record field value</rdfs:label>
     </owl:Class>
@@ -2230,15 +2019,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000225">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000223"/>
         <rdfs:label xml:lang="en">NCBI OMIM record field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000226 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000226">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000223"/>
-        <rdfs:label xml:lang="en">NCBI RefSeq release catalog record field value</rdfs:label>
     </owl:Class>
     
 
@@ -2310,7 +2090,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000234">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000061"/>
-        <rdfs:label xml:lang="en">UniProt protein record</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record</rdfs:label>
     </owl:Class>
     
 
@@ -2328,7 +2108,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000236">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000061"/>
-        <rdfs:label xml:lang="en">UniProt protein record component</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record component</rdfs:label>
     </owl:Class>
     
 
@@ -2365,7 +2145,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000240">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - primary accession field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - primary accession field value</rdfs:label>
     </owl:Class>
     
 
@@ -2383,7 +2163,6 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000242 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000242">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000031"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000218"/>
         <rdfs:label xml:lang="en">UniProt identifier mapping record -  Entrez gene identifier field value</rdfs:label>
     </owl:Class>
@@ -2832,15 +2611,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000288">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000285"/>
         <rdfs:label xml:lang="en">UniRef50 identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000289 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000289">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000087"/>
-        <rdfs:label xml:lang="en">PIR identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -4135,15 +3905,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000437 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000437">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">PDB identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000438 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000438">
@@ -5197,15 +4958,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000553 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000553">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">PubMed identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000554 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000554">
@@ -5220,15 +4972,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000555">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
         <rdfs:label xml:lang="en">reference SNP identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000556 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000556">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">UniProt identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -6288,7 +6031,7 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000671 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000671">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000085"/>
         <rdfs:label xml:lang="en">NCBI gene record</rdfs:label>
     </owl:Class>
     
@@ -6736,15 +6479,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000721 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000721">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000357"/>
-        <rdfs:label xml:lang="en">IRefWeb interactor type record</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000722 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000722">
@@ -6948,15 +6682,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000744">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
         <rdfs:label xml:lang="en">MI identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000745 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000745">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">data source identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -7396,7 +7121,7 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000794 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000794">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000197"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000223"/>
         <rdfs:label xml:lang="en">RefSeq record field value</rdfs:label>
     </owl:Class>
     
@@ -7406,7 +7131,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000795">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000794"/>
-        <rdfs:label xml:lang="en">RefSeq catalog record</rdfs:label>
+        <rdfs:label xml:lang="en">RefSeq catalog record field value</rdfs:label>
     </owl:Class>
     
 
@@ -7425,15 +7150,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000797">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000795"/>
         <rdfs:label xml:lang="en">RefSeq catalog record - species name field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000798 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000798">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">RefSeq identifier field value</rdfs:label>
     </owl:Class>
     
 
@@ -8044,8 +7760,8 @@ RGD identifier.</obo:IAO_0000115>
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000866 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000866">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000197"/>
-        <rdfs:label xml:lang="en">NCBI gene record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000223"/>
+        <rdfs:label xml:lang="en">NCBI gene record field value</rdfs:label>
     </owl:Class>
     
 
@@ -8630,7 +8346,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000931">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - accession field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - accession field value</rdfs:label>
     </owl:Class>
     
 
@@ -8639,7 +8355,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000932">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - name field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - name field value</rdfs:label>
     </owl:Class>
     
 
@@ -8648,7 +8364,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000933">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - protein field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - protein field value</rdfs:label>
     </owl:Class>
     
 
@@ -8657,7 +8373,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000934">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - gene field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - gene field value</rdfs:label>
     </owl:Class>
     
 
@@ -8666,7 +8382,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000935">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - organism field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - organism field value</rdfs:label>
     </owl:Class>
     
 
@@ -8675,7 +8391,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000936">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - organism host field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - organism host field value</rdfs:label>
     </owl:Class>
     
 
@@ -8684,7 +8400,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000937">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - gene location field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - gene location field value</rdfs:label>
     </owl:Class>
     
 
@@ -8693,7 +8409,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000938">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - reference field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - reference field value</rdfs:label>
     </owl:Class>
     
 
@@ -8702,7 +8418,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000939">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - comment field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - comment field value</rdfs:label>
     </owl:Class>
     
 
@@ -8711,7 +8427,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000940">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - database reference field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - database reference field value</rdfs:label>
     </owl:Class>
     
 
@@ -8720,7 +8436,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000941">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - protein existence field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - protein existence field value</rdfs:label>
     </owl:Class>
     
 
@@ -8729,7 +8445,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000942">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - keyword field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - keyword field value</rdfs:label>
     </owl:Class>
     
 
@@ -8738,7 +8454,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000943">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - feature field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - feature field value</rdfs:label>
     </owl:Class>
     
 
@@ -8747,7 +8463,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000944">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - evidence field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - evidence field value</rdfs:label>
     </owl:Class>
     
 
@@ -8756,7 +8472,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000945">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - sequence field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - sequence field value</rdfs:label>
     </owl:Class>
     
 
@@ -8765,7 +8481,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000946">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - dataset field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - dataset field value</rdfs:label>
     </owl:Class>
     
 
@@ -8774,7 +8490,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000947">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - modified field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - modified field value</rdfs:label>
     </owl:Class>
     
 
@@ -8783,7 +8499,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000948">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - version field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - version field value</rdfs:label>
     </owl:Class>
     
 
@@ -9287,7 +9003,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001004">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt protein record - created field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - created field value</rdfs:label>
     </owl:Class>
     
 
@@ -10961,7 +10677,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001190">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001066"/>
-        <rdfs:label xml:lang="en">UniProt protein record -  CD antigen name field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt protein record - CD antigen name field value</rdfs:label>
     </owl:Class>
     
 
@@ -13095,16 +12811,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001411 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001411">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
-        <obo:IAO_0000599>OMIM_</obo:IAO_0000599>
-        <rdfs:label xml:lang="en">Omim identifier</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001412 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001412">
@@ -14715,15 +14421,6 @@ RGD identifier.</obo:IAO_0000115>
     
 
 
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001582 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001582">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001512"/>
-        <rdfs:label xml:lang="en">Reactome provenance record</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001583 -->
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001583">
@@ -14783,15 +14480,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001589">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
         <rdfs:label xml:lang="en">Gene Ontology field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001590 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001590">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000020"/>
-        <rdfs:label xml:lang="en">UniProt identifier field value</rdfs:label>
     </owl:Class>
     
 
