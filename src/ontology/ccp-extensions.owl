@@ -15681,6 +15681,15 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     </owl:Class>
     
 
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001702 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001702">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000088"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000599>MOP_</obo:IAO_0000599>
+        <rdfs:label xml:lang="en">Molecular Process Ontology concept identifier</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
