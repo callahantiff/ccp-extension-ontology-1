@@ -1654,6 +1654,7 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000184">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000188"/>
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001713"/>
         <ext:IAO_EXT_0001700>[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}</ext:IAO_EXT_0001700>
         <obo:IAO_0000599>UNIPROT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniProt identifier</rdfs:label>
@@ -2767,17 +2768,6 @@ RGD identifier.</obo:IAO_0000115>
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000303">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000177"/>
         <rdfs:label xml:lang="en">UniProt entry name identifier field value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000304 -->
-
-    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000304">
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000188"/>
-        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
-        <obo:IAO_0000599>UNIPROT_</obo:IAO_0000599>
-        <rdfs:label xml:lang="en">UniProt entry name</rdfs:label>
     </owl:Class>
     
 
@@ -8387,7 +8377,7 @@ RGD identifier.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000932">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000217"/>
-        <rdfs:label xml:lang="en">UniProt knowledge base record - name field value</rdfs:label>
+        <rdfs:label xml:lang="en">UniProt knowledge base record - entry name field value</rdfs:label>
     </owl:Class>
     
 
@@ -13676,6 +13666,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001494">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001713"/>
         <ext:IAO_EXT_0001700>[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}-\d+</ext:IAO_EXT_0001700>
         <obo:IAO_0000599>UNIPROTENTRYNAME_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniProtEntryName identifier</rdfs:label>
@@ -13687,6 +13678,7 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
 
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001495">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001713"/>
         <obo:IAO_0000599>UNIPROT_</obo:IAO_0000599>
         <rdfs:label xml:lang="en">UniProtIsoform identifier</rdfs:label>
     </owl:Class>
@@ -15779,6 +15771,16 @@ Once a new SNP is submitted to dbSNP, it is assigned a unique submitted SNP ID n
     <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001712">
         <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0000997"/>
         <rdfs:label xml:lang="en">UniProt database reference record - molecule field value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001713 -->
+
+    <owl:Class rdf:about="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001713">
+        <rdfs:subClassOf rdf:resource="http://ccp.ucdenver.edu/obo/ext/IAO_EXT_0001699"/>
+        <obo:IAO_0000115>This is the general identifier type for any UniProt-specific identifier, i.e. this class encompasses the UniProt isoform id, UniProt entry name id, and the regular UniProt id.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">UniProt KB identifier</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
